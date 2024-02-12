@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Poppins:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Roboto:ital@1&family=Satisfy&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: libre-bodon;
+  text-transform: capitalize;
+}
+.header {
+  align-items: center;
+  text-align: center;
+  color: #f77c2d;
+  font-weight: 700;
+}
+h5 {
+  font-size: 30px;
+}
+
+img {
+  height: 80px;
+}
+
+/* about */
+#about_sansthan {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #f77c2d;
+}
+
+
+.backimg{
+  width: 100vw;
+  z-index: -1;
+}
+
+.on_darshan{
+  p{
+    font-family:Satisfy ;
+    font-size: 28px;
+    color: beige;
+  }
+  h2{
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: underline white 2px;
+    color: white;
+  }
+}
+.service {
+  height: 400px;
+  background-image: url(./images/service\ back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+}
+
+#on_header {
+  font-size: 40px;
+    font-weight: 500;
+    text-decoration: 2px underline white;
+    color: white;
+}
+#on_info {
+  font-family:  'Roboto', sans-serif;
+  font-size: 25px;
+  color:rgb(241, 241, 241);
+  line-break: auto;
+  
+ 
+}
+.pngimg{
+  height: 130px;
+}
+
+
+
+
+
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+
+
+
+.temples{
+  height: 800px;
+  background-color: red;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+
+}
+
+.near{
+   height: 100%;
+   width:  50%;
+   background-color: rgb(102, 71, 13);
+   padding-top: 20px;
+ 
+   text-decoration: underline;
+}
+.templepri{
+     height: 100%;
+     width :50%;
+     padding-top: 20px;
+     background-color: #f77c2d;
+     border-right:5px solid white ;
+     text-decoration: underline;
+}
+.photo_gall{
+  height: 500px;
+  background-color: red;
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+}
+
+#temps{
+  transform: scale(1);
+  transition: transform .3s ease-in-out;
+}
+
+#temps:hover{
+  transform: scale(1.3);
+
+}

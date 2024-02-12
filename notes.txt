@@ -1,0 +1,23 @@
+1 home
+2about sansthan (drop) i about us .sansthan regulation work tenure
+3 shri temple (drop)  daily program  history  the temple pooja 
+4 e-library   (drop)  vijay grantha morning arti  evening aarti
+5 online service (drop) accommodation booking donation online-darshan 
+6 social activity (drop) hospital college 
+7 more ( drop) contact us faq feedback how to reach photo gallery
+
+
+
+
+Shri gajanan maharajSansthan , shegaon is pleased to launch next generation portal for availing Darshan, Aarti,
+      Donation, Accommodation, Pooja, Membership and Publications services. Please click on the below links to avail the
+      services.
+
+
+
+       <div class="hedder2">
+      <dic class="inner-ser"><img src="./images/pooja.png" alt=""></dic>
+      <dic class="inner-ser"><img src="./images/aarti.png" alt=""></dic>
+      <dic class="inner-ser"><img src="./images/Accommodation.png " alt=""></dic>
+      <dic class="inner-ser"><img src="./images/publications.png" alt=""></dic> 
+    </div> 
