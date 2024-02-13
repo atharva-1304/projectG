@@ -75,59 +75,9 @@ img {
   height: 130px;
 }
 
-
-
-
-
-
 ul{
   list-style: none;
   padding: 0;
 }
 
 
-
-
-.temples{
-  height: 800px;
-  background-color: red;
-  display: flex;
-  justify-content:center;
-  align-items:center;
-  text-align: center;
-
-}
-
-.near{
-   height: 100%;
-   width:  50%;
-   background-color: rgb(102, 71, 13);
-   padding-top: 20px;
- 
-   text-decoration: underline;
-}
-.templepri{
-     height: 100%;
-     width :50%;
-     padding-top: 20px;
-     background-color: #f77c2d;
-     border-right:5px solid white ;
-     text-decoration: underline;
-}
-.photo_gall{
-  height: 500px;
-  background-color: red;
-  text-align: center;
-  text-decoration: underline;
-  color: white;
-}
-
-#temps{
-  transform: scale(1);
-  transition: transform .3s ease-in-out;
-}
-
-#temps:hover{
-  transform: scale(1.3);
-
-}
