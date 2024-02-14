@@ -99,10 +99,12 @@ ul{
 
 
 .photo{
-  height: 230px;
-  width: 230px;
+  height: 200px;
+  width: 220px;
+  margin-top: 10PX;
+  margin-bottom: 10PX;
  
-  margin: 15px;
+ 
   border: 1px solid white;
   border-radius: 5px;
 }
