@@ -90,7 +90,9 @@ ul{
 
 
 #footerlist{
-  font-size: 25px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline 1px white;
 }
 
 
