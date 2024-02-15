@@ -6,6 +6,8 @@
   margin: 0;
   font-family: libre-bodon;
   text-transform: capitalize;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .header {
