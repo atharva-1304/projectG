@@ -12,3 +12,10 @@
     bottom: 0;
 
 }
+.textin{
+    font-size:1.3rem;
+   margin-left: 10px;
+  }
+  .info{
+    border: 1px solid blueviolet;
+  }
