@@ -1,0 +1,20 @@
+#faq_img{
+    height: 40%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+h3{
+    text-decoration: underline;
+    font-weight: 900;
+}
+p{
+    font-size: 25px;
+  
+}
+.container{
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
