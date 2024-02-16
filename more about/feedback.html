@@ -16,10 +16,15 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css files/mediaq.css" />
-    <link rel="stylesheet" href="/css files/more about.css">
-
+    <link rel="stylesheet" href="/css files/more about.css" />
 
     <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -33,58 +38,297 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./more.css/more about.css" />
+    <link rel="stylesheet" href="./more.css/feedback.css" />
 
-  
     <link rel="icon" type="image/x-icon" href="./images/Favicon.png" />
 
     <title>feedback</title>
   </head>
   <body>
     <div
-    class="header borborder-bottom border border-success container-fluid p-2"
-  >
-    <h5>shri gajanan maharaj sansthan, shegaon</h5>
+      class="header borborder-bottom border border-success container-fluid p-2"
+    >
+      <h5>shri gajanan maharaj sansthan, shegaon</h5>
 
-    <nav>
-      <ul class="nav justify-content-center nav-pills nav-justified">
-        <li class="nav-item">
-          <a
-            class="nav-link rounded-pill border-right border-left border-dark  text-warning"
-            href="./contact.html"
-            >contact us</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link rounded-pill border-right border-left border-dark  text-warning"
-            href="./FAQ.html"
-            >FAQ</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link bg-danger  active rounded-pill border-right border-left border-dark"
-            href="./feedback.html"
-            >feedback</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link  rounded-pill border-right border-left border-dark  text-warning"
-            href="./how_to_reach.html"
-            >how to reach</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link rounded-pill border-right border-left border-dark  text-warning"
-            href="./photo.html"
-            >photo gallery</a
-          >
-        </li>
-      </ul>
-    </nav>
-  </div>
+      <nav>
+        <ul class="nav justify-content-center nav-pills nav-justified">
+          <li class="nav-item">
+            <a
+              class="nav-link rounded-pill border-right border-left border-dark text-warning"
+              href="./contact.html"
+              >contact us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link rounded-pill border-right border-left border-dark text-warning"
+              href="./FAQ.html"
+              >FAQ</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link bg-danger active rounded-pill border-right border-left border-dark"
+              href="./feedback.html"
+              >feedback</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link rounded-pill border-right border-left border-dark text-warning"
+              href="./how_to_reach.html"
+              >how to reach</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link rounded-pill border-right border-left border-dark text-warning"
+              href="./photo.html"
+              >photo gallery</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container-fluid">
+      <img
+        src="./images/feedback-transformed (3).jpeg"
+        id="feedback_img"
+        alt="contact_img"
+      />
+    </div>
+    <div class="container">
+      <form class="row g-3">
+        <div class="col-md-12">
+          <label for="inputEmail4" class="form-label">full name</label>
+          <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Phone</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputCity"
+            placeholder="+91 00000 00000"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">e-mail</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputCity"
+            placeholder="xyz@gmail.com"
+          />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="plot /land mark /city"
+          />
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>maharastra</option>
+            <option>madhya pradesh</option>
+            <option>gujrat</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip" />
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck">
+              i accept all terms and conditions
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="container my-5">
+      <table class="table table-hover table table-striped">
+        <thead>
+          <tr>
+            <th scope="col"><b>please describe your experience</b></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Booking Platform</th>
+            <td>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio1"
+                  value="option1"
+                />
+                <label class="form-check-label" for="inlineRadio1"
+                  >Online(Website)
+                </label>
+              </div>
+            </td>
+
+            <td>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="inlineRadio2"
+                  >Online(App)
+                </label>
+              </div>
+            </td>
+            <td>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="inlineRadio2"
+                  >Offline(Counter booking)
+                </label>
+              </div>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">Booking Experience</th>
+            <td>  <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="inlineRadio2"
+                  >Excellent
+                </label>
+              </div></td>
+            <td><div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio2"
+                value="option2"
+              />
+              <label class="form-check-label" for="inlineRadio2"
+                >good
+              </label>
+            </div></td>
+            <td><div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio2"
+                value="option2"
+              />
+              <label class="form-check-label" for="inlineRadio2"
+                >Average
+              </label>
+            </div></td>
+            <td><div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio2"
+                value="option2"
+              />
+              <label class="form-check-label" for="inlineRadio2"
+                >Unsatisfactory
+              </label>
+            </div></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>sagar b pawar</td>
+            <td>Public Relations Officer</td>
+            <td>Public Relation</td>
+            <td>ssagar03@gmail.com</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>jyoti s vadodkar</td>
+            <td>Incharge</td>
+            <td>Shri Prasadalaya</td>
+            <td>jyoti04@gmail.com</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>harshal s. patil</td>
+            <td>Incharge</td>
+            <td>Information Technology</td>
+            <td>harshal05@gmail.com</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>yougini s patil</td>
+            <td>Incharge</td>
+            <td>Publications Department</td>
+            <td>yougini06@gmail.com</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>sanjay y patil</td>
+            <td>Incharge</td>
+            <td>Arogya Department</td>
+            <td>sanjay_y07@gmail.com</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>sanjay s vadodkar</td>
+            <td>Incharge</td>
+            <td>Record Department</td>
+            <td>sanjay_s08@gmail.com</td>
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td>balaji v paithankar</td>
+            <td>Incharge</td>
+            <td>Purchase Department</td>
+            <td>balaji09@gmail.com</td>
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td>ramkumar k vadodkar</td>
+            <td>Incharge</td>
+            <td>Meeting Cell</td>
+            <td>ramkumar10@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- taible  end -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -117,6 +361,16 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
       integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
   </body>
