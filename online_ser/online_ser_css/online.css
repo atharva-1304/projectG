@@ -34,7 +34,8 @@ a {
   color: white;
   font-size: 1.2rem;
   text-decoration: underline 1px white;
-  margin-top: 5px;
+  margin-top: 15px;
+  padding: 3px;
 }
 
 p {
@@ -43,11 +44,13 @@ p {
 }
 
 .footer_container {
-  position: fixed;
+
+ 
   left: 0;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   background-color: red;
   color: white;
   text-align: center;
+  height: 15%;
 }

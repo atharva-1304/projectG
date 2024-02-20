@@ -84,7 +84,11 @@
     </nav>
   </div>
   
+<main>
 
+
+
+</main>
 
 
   <footer>
@@ -129,6 +133,26 @@
 
 
 
+  <script>
+    const singleRadio = document.getElementById('single');
+    const coupleRadio = document.getElementById('couple');
+    const singleForm = document.getElementById('singleForm');
+    const coupleForm = document.getElementById('coupleForm');
+
+    singleRadio.addEventListener('change', function() {
+        if (this.checked) {
+            singleForm.style.display = 'block';
+            coupleForm.style.display = 'none';
+        }
+    });
+
+    coupleRadio.addEventListener('change', function() {
+        if (this.checked) {
+            singleForm.style.display = 'none';
+            coupleForm.style.display = 'block';
+        }
+    });
+</script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
