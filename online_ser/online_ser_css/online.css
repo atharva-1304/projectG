@@ -44,8 +44,6 @@ p {
 }
 
 footer {
-
-  position: absolute;
   left: 0;
   bottom: 0px;
   width: 100%;
@@ -53,4 +51,17 @@ footer {
   color: white;
   text-align: center;
   height: 15%;
+}
+@media (max-width:800px) {
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 15%;
+  }
+  
 }
