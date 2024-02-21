@@ -52,7 +52,7 @@ footer {
   text-align: center;
   height: 15%;
 }
-@media (max-width:800px) {
+@media (max-width:991px) {
   footer {
     position: fixed;
     left: 0;
@@ -61,7 +61,17 @@ footer {
     background-color: red;
     color: white;
     text-align: center;
-    height: 15%;
+    height: 10%;
   }
-  
+  p {
+    color: white;
+    font-size: 1.6rem;
+  }
+  a {
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: underline 2px white;
+    margin-top: 15px;
+    padding: 3px;
+  }
 }
