@@ -29,7 +29,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="./donation.html" />
+    <link rel="stylesheet" href="./online_ser_css/darshan.css" />
     <link rel="stylesheet" href="./online_ser_css/online.css" />
     <link
       rel="icon"
@@ -37,7 +37,7 @@
       href="./online_ser_img/Favicon copy.png"
     />
 
-    <title>donation</title>
+    <title>publications</title>
   </head>
 
   <body>
@@ -96,7 +96,9 @@
                   <a class="nav-link active" href="./aarti.html">aarti</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="./publications.html">publications</a>
+                  <a class="nav-link active" href="./publications.html"
+                    >publications</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="./donation.html">donation</a>
@@ -113,50 +115,55 @@
     <main>
       <img src="./online_ser_img/pooja img/englishmenu2_01.jpg" style="background-size: cover; width: 100%;" class="img-fluid" alt="...">
 
-      <h3>donation</h3>
+      <h3 style="text-align: center">publications</h3>
       <form action=".php">
-        <div class="container">
+        <div class="container-xl">
           <div class="row">
             <div class="col">
-              <label for="namefi">first name</label>
-              <input
-              id="namefi
-                type="text"
-                required
-                class="form-control"
-                placeholder="First name"
-              />
-            </div>
-            <div class="col">
-              <label for="namelast">last name</label>
-              <input id="namelast" required type="text" class="form-control" placeholder="Last name" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <label for="gotra">gotra</label>
-              <input
-              id="gotra"
-                type="text"
-                class="form-control"
-                placeholder="gotra"
-              />
-            </div>
-            <div class="col">
-              <label for="inputState">donation type</label>
+              <label for="inputState">publications type</label>
               <select required id="inputState" class="form-control">
                 <option>select</option>
-                <option>Abhishek</option>
-                <option>Dengi</option>
-                <option>Building fund</option>
-                <option>aana daan</option>
+                <option>vijay grantha</option>
+                <option>shlock book (min)</option>
+                <option>calender</option>
+                <option>diaries</option>
+              </select>
+            </div>
+            <div class="col">
+              <label for="inputState">quantity</label>
+              <select required id="inputState" class="form-control">
+                <option>select</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
               </select>
             </div>
           </div>
+            <h3 style="text-align: center">address details</h3>
+            <div class="row">
+              <div class="col">
+                <label for="namefi">first name</label>
+                <input id="namefi type="text" required class="form-control"
+                placeholder="First name" />
+              </div>
+              <div class="col">
+                <label for="namelast">last name</label>
+                <input
+                  id="namelast"
+                  required
+                  type="text"
+                  class="form-control"
+                  placeholder="Last name"
+                />
+              </div>
+            </div>
+         
           <div class="row">
             <div class="col">
               <label for="email">email id</label>
-              <input required
+              <input
+                required
                 id="email"
                 type="text"
                 class="form-control"
@@ -165,8 +172,9 @@
             </div>
             <div class="col">
               <label for="contact">contact</label>
-              <input required
-              id="contact"
+              <input
+                required
+                id="contact"
                 type="tel"
                 class="form-control"
                 placeholder="+91 ********"
@@ -196,7 +204,8 @@
           <div class="row">
             <div class="col">
               <label for="address">address</label>
-              <input required
+              <input
+                required
                 id="address"
                 type="text"
                 class="form-control"
@@ -205,31 +214,21 @@
             </div>
             <div class="col">
               <label for="contact">zip code</label>
-              <input required
-              id="contact"
-                type="number"
-                
+              <input
+                required
+                id="contact"
+                type="text"
                 class="form-control"
                 placeholder="zip code"
               />
             </div>
           </div>
-          <div class="row">
-            <div class="col-6 col-md-12" >
-              <label for="donate">donation Amount</label>
-              <div class="input-group mb-3">
-               
-                <div class="input-group-prepend">
-                  <span class="input-group-text"> ₹</span>
-                </div>
-                <input required type="text" id="donate" class="form-control" aria-label="Amount (to the nearest dollar)">
-                <div class="input-group-append">
-                  <span class="input-group-text">.00</span>
-                </div>
-              </div>
-            </div>
         </div>
-        <center><button type="button submit "  class=" btn btn-success">continue</button></center> 
+        <center>
+          <button type="button submit " class="btn btn-success my-3">
+            continue payment
+          </button>
+        </center>
       </form>
     </main>
 
