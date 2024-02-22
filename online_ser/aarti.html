@@ -110,7 +110,68 @@
         </div>
       </nav>
     </div>
-
+     <main>
+      <img src="./online_ser_img/pooja img/englishmenu2_01.jpg" style="background-size: cover; width: 100%;" class="img-fluid" alt="...">
+      <h3 style="text-align: center;">pooja booking</h3>
+      <form action="f.php" class="container-fluid">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <select
+                required
+                class="form-select form-select-lg mb-3"
+                aria-label=".form-select-lg example"
+              >
+                <option>select aarti</option>
+                <option value="07">morning 07:00am</option>
+                <option value="11">morning 11:00am</option>
+                <option value="07">even 07:pm</option>
+              </select>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="form-floating mb-3">
+                <input
+                  type="date"
+                  required
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">select date</label>
+              </div>
+            </div>
+           
+          </div>
+          <div class="row">
+           
+            <div class="col-md-6 col-12">
+              <select
+                required
+                class="form-select form-select-lg mb-3"
+                aria-label=".form-select-lg example"
+                id="personSelect"
+                onchange="showForm()"
+              >
+                <option value="0">select number of People</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <div class="container" id="totalAmount"></div>
+            </div>
+          </div>
+        </div>
+        <h4 style="text-decoration: underline; text-align: center ; margin-top: 10px;">devotee details</h4>
+        <div id="formContainer"></div>
+        <center>
+          <input
+            type="submit"
+            placeholder="continue payment"
+            class="btn btn-outline-success"
+          />
+        </center>
+     </main>
     <footer>
       <div class="container-fluid footer_container">
         <div
@@ -147,7 +208,120 @@
         </div>
       </div>
     </footer>
+    <script>
+      function showForm() {
+        var selectValue = document.getElementById("personSelect").value;
+        var formContainer = document.getElementById("formContainer");
+        var totalAmount = document.getElementById("totalAmount");
 
+        if (selectValue == 1) {
+          formContainer.innerHTML = `
+            <form>
+              <div class="container-fluid ">
+                
+                <div class="row ">
+                 <div class="col-6 col-md-3 p-0  my-3">
+                  <input type="text" required class="form-control" placeholder=" devotee name " aria-label="First name">
+                 </div>
+                 <div class="col-6 col-md-2 p-0 my-3">
+                  <input type="number" required class="form-control" placeholder="age" aria-label="First name">
+                 </div>
+                 <div class="col-6 col-md-2 p-0 my-3">
+                  <select required class="form-select" aria-label="Default select example">
+                     <option selected>gender</option>
+                     <option value="1">male</option>
+                     <option value="2">femail</option>
+                    
+                   </select>
+                 </div>
+                 <div class="col-6 col-md-2 p-0 my-3">
+                  <select required class="form-select" aria-label="Default select example">
+                     <option selected>photo id proof</option>
+                     <option value="1">aadhar card</option>
+                     <option value="2">voter id</option>
+                     <option value="3">pan card</option>
+                    
+                   </select>
+                 </div>
+                 <div class="col-12 col-md-3 p-0 my-3">
+                  <input required type="text" class="form-control" placeholder="id proof" aria-label="First name">
+                 </div>
+               </div>   
+             </div>
+            </form>
+          `;
+         
+        } else if (selectValue == 2) {
+          formContainer.innerHTML = `
+          <form>
+            <div class="container-fluid ">
+                
+                <div class="row ">
+                 <div class="col-6 col-md-3 p-0  my-3">
+                  <input type="name" required class="form-control" placeholder=" devotee name " aria-label="First name">
+                 </div>
+                 <div class="col-6 col-md-2 p-0 my-3">
+                  <input type="number" required class="form-control" placeholder="age" aria-label="First name">
+                 </div>
+                 <div class="col-6 col-md-2 p-0 my-3">
+                  <select required class="form-select" aria-label="Default select example">
+                     <option selected>gender</option>
+                     <option value="1">male</option>
+                     <option value="2">femail</option>
+                    
+                   </select>
+                 </div>
+                 <div class="col-6 col-md-2 p-0 my-3">
+                  <select required class="form-select" aria-label="Default select example">
+                     <option selected>photo id proof</option>
+                     <option value="1">aadhar card</option>
+                     <option value="2">voter id</option>
+                     <option value="3">pan card</option>
+                    
+                   </select>
+                 </div>
+                 <div class="col-12 col-md-3 p-0 my-3">
+                  <input required type="text" class="form-control" placeholder="id proof" aria-label="First name">
+                 </div>
+                </div>   
+                <div class="row ">
+                 <div class="col-6 col-md-3 p-0  my-3">
+                  <input type="name" required class="form-control" placeholder=" devotee name " aria-label="First name">
+                 </div>
+                 <div class="col-6 col-md-2 p-0 my-3">
+                  <input type="number" required class="form-control" placeholder="age" aria-label="First name">
+                 </div>
+                 <div class="col-6 col-md-2 p-0 my-3">
+                  <select required class="form-select" aria-label="Default select example">
+                     <option selected>gender</option>
+                     <option value="1">male</option>
+                     <option value="2">femail</option>
+                    
+                   </select>
+                 </div>
+                 <div class="col-6 col-md-2 p-0 my-3">
+                  <select required class="form-select" aria-label="Default select example">
+                     <option selected>photo id proof</option>
+                     <option value="1">aadhar card</option>
+                     <option value="2">voter id</option>
+                     <option value="3">pan card</option>
+                    
+                   </select>
+                 </div>
+                 <div class="col-12 col-md-3 p-0 my-3">
+                  <input required type="text" class="form-control" placeholder="id proof" aria-label="First name">
+                 </div>
+                </div>      
+            </div>
+          </form>
+          `;
+         
+        } else {
+          formContainer.innerHTML = "";
+          totalAmount.innerHTML = "";
+        }
+      }
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
