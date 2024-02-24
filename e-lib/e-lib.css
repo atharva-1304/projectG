@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Poppins:wght@500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Roboto:ital@1&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Libre+Bodoni&family=Roboto:ital@1&family=Satisfy&display=swap')
 * {
   padding: 0;
   margin: 0;
@@ -10,13 +11,27 @@
 .header {
   align-items: center;
   text-align: center;
-  color: #f77c2d;
+  color: #EAC435;
   font-weight: 700;
+  border-bottom: 2px solid #f77c2d;
+  margin-bottom: 5px;
+  background-color:#8F8F65;
 }
-h5 {
-  font-size: 30px;
+h1 {
+   font-family: libre;
+   font-weight: 500;
+   text-decoration:underline;
 }
-
+h3{
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 img {
   height: 80px;
+}
+footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
 }
