@@ -1,0 +1,25 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../gajanan maharaj"
+        },
+        {
+            "path": "../loader"
+        },
+        {
+            "path": "../login_page"
+        },
+        {
+            "path": "../navbar"
+        },
+        {
+            "path": "../try"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "projectG"
+    }
+}
