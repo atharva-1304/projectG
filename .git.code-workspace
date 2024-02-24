@@ -1,9 +1,6 @@
 {
     "folders": [
         {
-            "path": "."
-        },
-        {
             "path": "../gajanan maharaj"
         },
         {
@@ -17,6 +14,9 @@
         },
         {
             "path": "../try"
+        },
+        {
+            "path": "."
         }
     ],
     "settings": {
