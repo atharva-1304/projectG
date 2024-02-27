@@ -3,10 +3,9 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
     <!-- cdn for icon -->
     <link
       rel="stylesheet"
@@ -83,8 +82,98 @@
         </ul>
       </nav>
     </div>
-    
+    <h1 class="text-center">photo Gallery</h1>
 
+    <div class="gallery" id="gallery">
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/1.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/2.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/3.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/4.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/5.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/6.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/7.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/8.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/9.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/10.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/11.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/12.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/13.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/14.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/15.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/17.jpg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/18.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="./images/photo gll/19.jpeg" alt=""></div>
+        </div>
+      
+    </div>
+<script>var gallery = document.querySelector('#gallery');
+  var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
+  var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
+  var resizeAll = function () {
+      var altura = getVal(gallery, 'grid-auto-rows');
+      var gap = getVal(gallery, 'grid-row-gap');
+      gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+          var el = item;
+          el.style.gridRowEnd = "span " + Math.ceil((getHeight(item) + gap) / (altura + gap));
+      });
+  };
+  gallery.querySelectorAll('img').forEach(function (item) {
+      item.classList.add('byebye');
+      if (item.complete) {
+          console.log(item.src);
+      }
+      else {
+          item.addEventListener('load', function () {
+              var altura = getVal(gallery, 'grid-auto-rows');
+              var gap = getVal(gallery, 'grid-row-gap');
+              var gitem = item.parentElement.parentElement;
+              gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
+              item.classList.remove('byebye');
+          });
+      }
+  });
+  window.addEventListener('resize', resizeAll);
+  gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+      item.addEventListener('click', function () {        
+          item.classList.toggle('full');        
+      });
+  });
+  </script>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Poppins:wght@500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Roboto:ital@1&family=Satisfy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Roboto:ital@1&family=Satisfy&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -29,19 +29,18 @@ img {
   color: #f77c2d;
 }
 
-
-.backimg{
+.backimg {
   width: 100vw;
   z-index: -1;
 }
 
-.on_darshan{
-  p{
-    font-family:Satisfy ;
+.on_darshan {
+  p {
+    font-family: Satisfy;
     font-size: 28px;
     color: beige;
   }
-  h2{
+  h2 {
     font-size: 40px;
     font-weight: 500;
     text-decoration: underline white 2px;
@@ -54,67 +53,48 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-
 }
 
 #on_header {
   font-size: 40px;
-    font-weight: 500;
-    text-decoration: 2px underline white;
-    color: white;
+  font-weight: 500;
+  text-decoration: 2px underline white;
+  color: white;
 }
 #on_info {
-  font-family:  'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 25px;
-  color:rgb(241, 241, 241);
+  color: rgb(241, 241, 241);
   line-break: auto;
-  
- 
 }
-.pngimg{
+.pngimg {
   height: 130px;
 }
 
-ul{
+ul {
   list-style: none;
   padding: 0;
 }
- 
-#header{
+
+#header {
   font-size: 3rem;
   text-decoration: 1px underline white;
   color: white;
   text-align: center;
-  font-family:  'Times New Roman', Times, serif
+  font-family: "Times New Roman", Times, serif;
 }
 
-
-#footerlist{
+#footerlist {
   font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: underline 1px white;
 }
 
-
-
-
-
-
-
-
-.photo{
+.photo {
   height: 200px;
   width: 220px;
-  margin-top: 10PX;
-  margin-bottom: 10PX;
- 
- 
+  margin-top: 10px;
+  margin-bottom: 10px;
   border: 1px solid white;
   border-radius: 5px;
-}
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
