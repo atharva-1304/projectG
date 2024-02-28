@@ -97,4 +97,31 @@ ul {
   margin-bottom: 10px;
   border: 1px solid white;
   border-radius: 5px;
+  padding: 0;
+
+}
+
+#photogall{
+ height: 180px;
+ width: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-inline: 5px;
+  margin-block: 3px;
+  filter: grayscale(30%);
+ transition-property: all;
+  transition-duration: .5s;
+ transition-timing-function: linear;
+ padding: 10px;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+
+}
+
+#photogall:hover{
+  filter: none;
+  transform:scale(1.2);
+  animation: ease-in;
+ 
 }
