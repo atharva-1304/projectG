@@ -16,11 +16,7 @@
   color: #f77c2d;
   font-weight: 700;
 }
-.nav_top {
-  text-decoration: 1px underline white;
-  font-size: x-large;
-  border-bottom: 2px solid black;
-}
+
 h5 {
   font-size: 50px;
   text-decoration: underline 1px;
@@ -30,49 +26,17 @@ h5 {
 img {
   height: 80px;
 }
-a {
-  color: white;
-  font-size: 1.2rem;
-  text-decoration: underline 1px white;
-  margin-top: 15px;
-  padding: 3px;
-}
+
 
 p {
   color: white;
   font-size: 1.2rem;
 }
 
-footer {
-  left: 0;
-  bottom: 0px;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-  height: 15%;
-}
-@media (max-width:991px) {
-  footer {
+@media (max-width:900px){
+  footer{
     position: fixed;
-    left: 0;
-    bottom: 0px;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-    height: 10%;
-  }
-  p {
-    color: white;
-    font-size: 1.6rem;
-    padding-bottom: 2px;
-  }
-  a {
-    color: white;
-    font-size: 1.6rem;
-    text-decoration: underline 2px white;
-    margin-top: 15px;
-    padding: 3px;
+    bottom: 0;
+    wid
   }
 }
