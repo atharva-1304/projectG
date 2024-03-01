@@ -8,6 +8,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!-- cdn for icon -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -38,7 +39,7 @@
     <title>Branches</title>
   </head>
 
-  <body>
+  <body style="overflow-x: hidden;">
     <!-- header -->
     <div class="header">
       <img
@@ -48,7 +49,7 @@
       />
       <h5>shri gajanan maharaj sansthan, shegaon</h5>
     </div>
-    
+
     <nav class="navbar navbar-expand-lg bg-danger navbar-dark sticky-top">
       <div class="container-fluid">
         <button
@@ -65,23 +66,34 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="\index.html">home</a>
+              <a class="nav-link" aria-current="page" href="\index.html"
+                >home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./branch.html">authorized branches</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./branch.html"
+                >authorized branches</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="./place.html">places to visit</a>
+              <a class="nav-link" aria-current="page" href="./place.html"
+                >places to visit</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="./sansthan.html">about sansthan</a>
+              <a class="nav-link" aria-current="page" href="./sansthan.html"
+                >about sansthan</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div id="carouselExampleFade" class="carousel slide ">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
@@ -138,7 +150,12 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <div class="card mx-5 mb-5 shadow-lg p-3 mb-5 mt-5 bg-body rounded">
+    <div class="card mx-5 mb-5 shadow-lg p-3 mb-5 mt-5 bg-body rounded"
+    data-aos="slide-left"
+      data-aos-duration="1000"
+     
+      data-aos-once="true"
+    >
       <div class="row g-0">
         <div class="col-md-4">
           <img
@@ -168,7 +185,7 @@
                 aria-expanded="false"
                 aria-controls="collapseExample"
               >
-                more
+                read more
               </button>
             </center>
 
@@ -208,7 +225,12 @@
         </div>
       </div>
     </div>
-    <div class="card mx-5 mb-5 shadow-lg p-3 mb-5 bg-body rounded">
+    <div class="card mx-5 mb-5 shadow-lg p-3 mb-5 bg-body rounded"
+    data-aos="slide-left"
+    data-aos-duration="1000"
+   
+    data-aos-once="true"
+    >
       <div class="row g-0">
         <div class="col-md-4">
           <img
@@ -228,19 +250,22 @@
               1995.
             </p>
             <center>
-              <button
-                class="btn btn-outline-primary mb-1"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseExample"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                More
-              </button>
+              <p class="d-inline-flex gap-1">
+                <a
+                  class="btn btn-outline-primary"
+                  data-bs-toggle="collapse"
+                  href="#trayambakeshwar"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  read more
+                </a>
+               
+              </p>
             </center>
 
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="trayambakeshwar">
               <div class="card card-body">
                 <p class="card-text">
                   The beautiful temple of Shri Gajanan Maharaj was built in
@@ -277,7 +302,11 @@
         </div>
       </div>
     </div>
-    <div class="card mx-5 mb-5 shadow-lg p-3 mb-5 bg-body rounded">
+    <div class="card mx-5 mb-5 shadow-lg p-3 mb-5 bg-body rounded"
+    data-aos="slide-left"
+    data-aos-duration="1000"
+    data-aos-once="true"
+    >
       <div class="row g-0">
         <div class="col-md-4">
           <img
@@ -305,7 +334,11 @@
         </div>
       </div>
     </div>
-    <div class="card mx-5 mb-5 shadow-lg p-3 mb-5 bg-body rounded">
+    <div class="card mx-5 mb-5 shadow-lg p-3 mb-5 bg-body rounded"
+    data-aos="slide-left"
+    data-aos-duration="1000"
+    data-aos-once="true"
+    >
       <div class="row g-0">
         <div class="col-md-4">
           <img
@@ -333,7 +366,11 @@
         </div>
       </div>
     </div>
-    <div class="card mx-5 mb-5 shadow-lg p-3 mb-5 bg-body rounded">
+    <div class="card mx-5 mb-5 shadow-lg p-3 mb-5 bg-body rounded"
+    data-aos="slide-left"
+    data-aos-duration="1000"
+    data-aos-once="true"
+    >
       <div class="row g-0">
         <div class="col-md-4">
           <img
@@ -361,59 +398,64 @@
         </div>
       </div>
     </div>
-           <!-- footer -->
+    <!-- footer -->
 
-    <div class="container-fluid bg-danger text-light">
-        <div class="row" style="border-top: 1px solid white"></div>
+    <div class="container-fluid bg-danger text-light"
+    >
+      <div class="row" style="border-top: 1px solid white"></div>
+      <div class="row">
+        <div class="col">
+          <h1>Quick Links</h1>
+          <ul>
+            <li id="footerlist">Appeal</li>
+            <li id="footerlist">Annual Reports</li>
+            <li id="footerlist">Notice</li>
+            <li id="footerlist">Information Centers</li>
+            <li id="footerlist">Sansthan Regulations</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>Follow Us On</h1>
+          <ul>
+            <li id="footerlist">
+              facebook&emsp; &emsp; &nbsp; <i class="fa-brands fa-facebook"></i>
+            </li>
+            <li id="footerlist">
+              instagram &emsp;&emsp; &nbsp;
+              <i class="fa-brands fa-instagram"></i>
+            </li>
+            <li id="footerlist">
+              you tube &nbsp; &emsp; &emsp;<i class="fa-brands fa-youtube"></i>
+            </li>
+            <li id="footerlist">
+              twitter&nbsp; &emsp; &emsp; &nbsp; &nbsp;
+              <i class="fa-brands fa-twitter"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>Reach Us On</h1>
+          <p>
+            For Online Services please do contact on +91 7887583131 Help Line
+            No.
+
+            <br />
+            +91 9993335558 / 8885550321
+          </p>
+        </div>
         <div class="row">
-          <div class="col">
-            <h1>Quick Links</h1>
-            <ul>
-              <li id="footerlist">Appeal</li>
-              <li id="footerlist">Annual Reports</li>
-              <li id="footerlist">Notice</li>
-              <li id="footerlist">Information Centers</li>
-              <li id="footerlist">Sansthan Regulations</li>
-            </ul>
-          </div>
-          <div class="col">
-            <h1>Follow Us On</h1>
-            <ul>
-              <li id="footerlist">
-                facebook&emsp; &emsp; &nbsp; <i class="fa-brands fa-facebook"></i>
-              </li>
-              <li id="footerlist">
-                instagram &emsp;&emsp; &nbsp;
-                <i class="fa-brands fa-instagram"></i>
-              </li>
-              <li id="footerlist">
-                you tube &nbsp; &emsp; &emsp;<i class="fa-brands fa-youtube"></i>
-              </li>
-              <li id="footerlist">
-                twitter&nbsp; &emsp; &emsp; &nbsp; &nbsp;
-                <i class="fa-brands fa-twitter"></i>
-              </li>
-            </ul>
-          </div>
-          <div class="col">
-            <h1>Reach Us On</h1>
-            <p>
-              For Online Services please do contact on +91 7887583131 Help Line
-              No.
-  
-              <br />
-              +91 9993335558 / 8885550321
-            </p>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <p>© Copyright 1998-2024 Shri gajanan maharaj Sansthan, shegaon</p>
-            </div>
+          <div class="col-12">
+            <p>© Copyright 1998-2024 Shri gajanan maharaj Sansthan, shegaon</p>
           </div>
         </div>
       </div>
-  
-      <!-- footer end-->
+    </div>
+
+    <!-- footer end-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

@@ -1,15 +1,6 @@
 {
     "folders": [
         {
-            "path": "../gajanan maharaj"
-        },
-        {
-            "path": "../loader"
-        },
-        {
-            "path": "../login_page"
-        },
-        {
             "path": "../navbar"
         },
         {
@@ -20,6 +11,9 @@
         },
         {
             "path": "../../java"
+        },
+        {
+            "path": "../Responsive Card Slider"
         }
     ],
     "settings": {

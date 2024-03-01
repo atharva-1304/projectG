@@ -8,6 +8,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!-- cdn for icon -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -32,7 +33,7 @@
     <link rel="stylesheet" href="./daily_routine.css" />
     <title>social service</title>
   </head>
-  <body>
+  <body style="overflow-x: hidden;">
     <!-- header -->
     <div class="header">
       <img
@@ -42,7 +43,7 @@
       />
       <h5>shri gajanan maharaj sansthan, shegaon</h5>
     </div>
-    <nav id="navbar-example2" class="navbar bg-light px-3 mb-3">
+    <nav id="navbar-example2" class="navbar px-3 mb-3 nav justify-content-center ">
       <a class="navbar-brand" href="/index.html">home</a>
       <ul class="nav nav-pills">
         <li class="nav-item">
@@ -79,6 +80,11 @@
       <img src="./images/p1.jpg" class="img-fluid w-100" alt="..." />
       <div
         class="container-fluid mx-8 shadow p-3 mb-5 bg-body-tertiary rounded"
+        
+     data-aos="fade-in"
+      data-aos-offset="200"
+      data-aos-duration="500"
+      data-aos-once="true"
       >
         <p style="text-align: center" class="mx-5">
           A Human Being's peace of mindis eclipsed, due to five vices like
@@ -274,7 +280,11 @@
       </h4>
       <table
         class="table table-striped table-hover table-bordered fs-5 mt-5 container-xl text-center shadow p-3 mb-5 bg-body-tertiary rounded"
-      >
+        data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-duration="500"
+        data-aos-once="true"
+        >
         <thead>
           <tr>
             <th scope="col">timeing</th>
@@ -357,12 +367,22 @@
 
       <h4 id="scrollspyHeading3" class="text-center">Shree’s Samadhi Mandir</h4>
       <img
+      data-aos="fade-down"
+      data-aos-delay="50"
+      data-aos-offset="200"
+      data-aos-duration="500"
+      data-aos-once="true"
         src="./images/Gajanan_Maharaj_Temple_Shegaon.jpg"
         class="img-fluid w-100"
         alt="..."
       />
-      <div class="cotainer-fluid text-center shadow-lg p-3 mb-5 bg-body rounded">
-        <p>
+      <div class="cotainer-fluid text-center shadow-lg p-3 mb-5 bg-body rounded"
+      data-aos="zoom-out-up"
+
+      data-aos-offset="200"
+      data-aos-duration="500"
+      data-aos-once="true">
+        <p >
           Shri Gajanan Maharaj Samadhi Temple is at the center surrounded by two
           specious entrance gatesin the north and the west directions
           respectively.
@@ -386,7 +406,12 @@
       </div>
        
       <div class="card my-3 shadow-lg p-3 mb-5 bg-body rounded" id="mahaprasad">
-        <div class="card-body text-center">
+        <div class="card-body text-center"
+        data-aos="fade-down"
+        data-aos-delay="50"
+        data-aos-offset="200"
+        data-aos-duration="500"
+        data-aos-once="true">
           <h4 id="mahaprasad">Mahaprasad</h4>
           Shruti and upanishandas have suggested the great ideology- 'Food is
           Bramha (God)' and it has the prime importance that all the organism on
@@ -395,7 +420,12 @@
           Parichakshita whichmeans do not waste the food and do not insult it.
         </div>
       </div>
-      <div class="card mb-5 shadow-lg p-3 mb-5 bg-body rounded">
+      <div class="card mb-5 shadow-lg p-3 mb-5 bg-body rounded"
+      data-aos="fade-left"
+      data-aos-delay="50"
+      data-aos-offset="200"
+      data-aos-duration="500"
+      data-aos-once="true">
         <div class="card-body text-start">
           <div class="row">
             <div class="col-4">
@@ -421,7 +451,12 @@
         </div>
       </div>
 
-      <div class="card mb-5 shadow-lg p-3 mb-5 bg-body rounded">
+      <div class="card mb-5 shadow-lg p-3 mb-5 bg-body rounded"
+      data-aos="fade-right"
+      data-aos-delay="50"
+      data-aos-offset="200"
+      data-aos-duration="500"
+      data-aos-once="true">
         <div class="card-body text-end">
           <div class="row">
             <div class="col-12 col-md-8 fs-5">
@@ -501,7 +536,10 @@
     </div>
 
     <!-- footer end-->
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
