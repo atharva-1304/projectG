@@ -17,6 +17,7 @@
         }
     ],
     "settings": {
-        "liveServer.settings.multiRootWorkspaceName": "projectG"
+        "liveServer.settings.multiRootWorkspaceName": "projectG",
+        "docwriter.style": "Auto-detect"
     }
 }
