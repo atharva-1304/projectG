@@ -35,3 +35,10 @@ footer{
   bottom: 0;
   left: 0;
 }
+.infobox{
+  border: 2px solid yellow;
+  border-radius: 10px;
+}
+.card-img-top {
+  border-radius: 25px;
+}

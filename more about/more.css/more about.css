@@ -15,11 +15,11 @@
     text-align: center;
     color: #f77c2d;
     font-weight: 700;
+    text-decoration: none;
    
   }
   h5 {
     font-size: 50px;
-    text-decoration: underline 1px;
     margin-top: 5px;
   }
  
