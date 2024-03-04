@@ -20,3 +20,33 @@ h5 {
 img {
   height: 80px;
 }
+.nav-link {
+  color: white;
+  transition: linear;
+  transition-duration: 0.2s;
+  transition-property: all;
+  margin-inline: 5px;
+  border-radius: 25px;
+  padding-inline: 5px;
+  transform: scale(1);
+  z-index: 0;
+}
+.nav-link:visited {
+  background-color: gray;
+  padding-left: 20px;
+  color: #c2d560;
+}
+
+.dropdown-menu li:hover {
+  transform: translateX(20px);
+
+  z-index: 3;
+}
+.dropdown-menu {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+}
+
+.dropdown-menu a {
+  color: white;
+}

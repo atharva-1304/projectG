@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="./daily_routine.css" />
     <title>social service</title>
   </head>
-  <body style="overflow-x: hidden;">
+  <body style="overflow-x: hidden">
     <!-- header -->
     <div class="header">
       <img
@@ -43,28 +43,48 @@
       />
       <h5>shri gajanan maharaj sansthan, shegaon</h5>
     </div>
-    <nav id="navbar-example2" class="navbar px-3 mb-3 nav justify-content-center ">
-      <a class="navbar-brand" href="../index.html">home</a>
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading1">about shri</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading2">daily routine </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading3"
-            >Shree’s Samadhi Mandir
-          </a>
-        </li>
+    <nav
+      class="navbar navbar-expand-lg sticky-top"
+      style="background-color: #cf486a ; color: antiquewhite;"
+    >
+      <div class="container-fluid navcollapse">
+        <button
+          class="navbar-toggler border-0 shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-ellipsis" style="color: wheat"></i>
+        </button>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#mahaprasad"
-            >mahaprasad
-          </a>
-        </li>
-      </ul>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading1">about shri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading2">daily routine </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading3"
+                >Shree’s Samadhi Mandir
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#mahaprasad">mahaprasad </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
+  
 
     <div
       data-bs-spy="scroll"
@@ -80,11 +100,10 @@
       <img src="./images/p1.jpg" class="img-fluid w-100" alt="..." />
       <div
         class="container-fluid mx-8 shadow p-3 mb-5 bg-body-tertiary rounded"
-        
-     data-aos="fade-in"
-      data-aos-offset="200"
-      data-aos-duration="2000"
-      data-aos-once="true"
+        data-aos="fade-in"
+        data-aos-offset="200"
+        data-aos-duration="2000"
+        data-aos-once="true"
       >
         <p style="text-align: center" class="mx-5">
           A Human Being's peace of mindis eclipsed, due to five vices like
@@ -115,7 +134,7 @@
               aria-expanded="false"
               aria-controls="collapseExample"
             >
-              read more 
+              read more
             </a>
           </p>
           <div class="collapse" id="collapseExample">
@@ -284,7 +303,7 @@
         data-aos-offset="200"
         data-aos-duration="500"
         data-aos-once="true"
-        >
+      >
         <thead>
           <tr>
             <th scope="col">timeing</th>
@@ -367,22 +386,23 @@
 
       <h4 id="scrollspyHeading3" class="text-center">Shree’s Samadhi Mandir</h4>
       <img
-      data-aos="fade-down"
-      data-aos-delay="50"
-      data-aos-offset="200"
-      data-aos-duration="500"
-      data-aos-once="true"
+        data-aos="fade-down"
+        data-aos-delay="50"
+        data-aos-offset="200"
+        data-aos-duration="500"
+        data-aos-once="true"
         src="./images/Gajanan_Maharaj_Temple_Shegaon.jpg"
         class="img-fluid w-100"
         alt="..."
       />
-      <div class="cotainer-fluid text-center shadow-lg p-3 mb-5 bg-body rounded"
-      data-aos="zoom-out-up"
-
-      data-aos-offset="200"
-      data-aos-duration="500"
-      data-aos-once="true">
-        <p >
+      <div
+        class="cotainer-fluid text-center shadow-lg p-3 mb-5 bg-body rounded"
+        data-aos="zoom-out-up"
+        data-aos-offset="200"
+        data-aos-duration="500"
+        data-aos-once="true"
+      >
+        <p>
           Shri Gajanan Maharaj Samadhi Temple is at the center surrounded by two
           specious entrance gatesin the north and the west directions
           respectively.
@@ -404,14 +424,16 @@
           difficulties when all optionsare blocked for them.
         </p>
       </div>
-       
+
       <div class="card my-3 shadow-lg p-3 mb-5 bg-body rounded" id="mahaprasad">
-        <div class="card-body text-center"
-        data-aos="fade-down"
-        data-aos-delay="50"
-        data-aos-offset="200"
-        data-aos-duration="500"
-        data-aos-once="true">
+        <div
+          class="card-body text-center"
+          data-aos="fade-down"
+          data-aos-delay="50"
+          data-aos-offset="200"
+          data-aos-duration="500"
+          data-aos-once="true"
+        >
           <h4 id="mahaprasad">Mahaprasad</h4>
           Shruti and upanishandas have suggested the great ideology- 'Food is
           Bramha (God)' and it has the prime importance that all the organism on
@@ -420,12 +442,14 @@
           Parichakshita whichmeans do not waste the food and do not insult it.
         </div>
       </div>
-      <div class="card mb-5 shadow-lg p-3 mb-5 bg-body rounded"
-      data-aos="fade-left"
-      data-aos-delay="50"
-      data-aos-offset="200"
-      data-aos-duration="500"
-      data-aos-once="true">
+      <div
+        class="card mb-5 shadow-lg p-3 mb-5 bg-body rounded"
+        data-aos="fade-left"
+        data-aos-delay="50"
+        data-aos-offset="200"
+        data-aos-duration="500"
+        data-aos-once="true"
+      >
         <div class="card-body text-start">
           <div class="row">
             <div class="col-4">
@@ -435,7 +459,7 @@
                 alt="..."
               />
             </div>
-            <div class="col-md-8 col-12  fs-5">
+            <div class="col-md-8 col-12 fs-5">
               <p>
                 Sansthan has a very effective system of Mahaprasad distribution
                 where 5000 devotees can have food by seating alternately at a
@@ -451,12 +475,14 @@
         </div>
       </div>
 
-      <div class="card mb-5 shadow-lg p-3 mb-5 bg-body rounded"
-      data-aos="fade-right"
-      data-aos-delay="50"
-      data-aos-offset="200"
-      data-aos-duration="500"
-      data-aos-once="true">
+      <div
+        class="card mb-5 shadow-lg p-3 mb-5 bg-body rounded"
+        data-aos="fade-right"
+        data-aos-delay="50"
+        data-aos-offset="200"
+        data-aos-duration="500"
+        data-aos-once="true"
+      >
         <div class="card-body text-end">
           <div class="row">
             <div class="col-12 col-md-8 fs-5">
@@ -483,9 +509,9 @@
         </div>
       </div>
     </div>
-     <!-- footer -->
+    <!-- footer -->
 
-     <div class="container-fluid bg-danger text-light">
+    <div class="container-fluid bg-danger text-light">
       <div class="row" style="border-top: 1px solid white"></div>
       <div class="row">
         <div class="col">
