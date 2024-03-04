@@ -20,3 +20,45 @@ h5 {
 img {
   height: 80px;
 }
+.nav-link {
+  color: white;
+  transition: linear;
+  transition-duration: 0.2s;
+  transition-property: all;
+  margin-inline: 5px;
+  border-radius: 25px;
+  padding-inline: 5px;
+  transform: scale(1);
+  z-index: 0;
+}
+.nav-link:hover {
+  background-color: gray;
+  padding-left: 20px;
+  color: #c2d560;
+}
+
+.dropdown-menu li:hover {
+  transform: translateX(20px);
+
+  z-index: 3;
+}
+.dropdown-menu {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+}
+
+.dropdown-menu a {
+  color: white;
+}
+.footer{
+  background-color: #CF4A6B;
+  color: #FBEFF2;
+}
+.scrollspyHeading1{
+  font-size: 28px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.card-body{
+  background-color:#f1ffe2;
+  
+}

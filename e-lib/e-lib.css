@@ -11,16 +11,15 @@
 .header {
   align-items: center;
   text-align: center;
-  color: #EAC435;
+ 
   font-weight: 700;
-  border-bottom: 2px solid #f77c2d;
+ test  
   margin-bottom: 5px;
-  background-color:#8F8F65;
 }
 h1 {
    font-family: libre;
    font-weight: 500;
-   text-decoration:underline;
+   text-decoration:1px solid underline;
 }
 h3{
   font-family: "Satisfy", cursive;
@@ -36,9 +35,13 @@ footer{
   left: 0;
 }
 .infobox{
-  border: 2px solid yellow;
+ background-color:rgb(252, 250, 246);
   border-radius: 10px;
+  color:rgba(207, 74, 107, )
 }
 .card-img-top {
   border-radius: 25px;
+}
+a{
+  font-size: 18px;
 }

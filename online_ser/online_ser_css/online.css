@@ -9,6 +9,10 @@
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
 }
+body{
+  background-color: #fbeff2;
+  overflow-x: hidden;
+}
 
 .header {
   align-items: center;
@@ -26,17 +30,51 @@ h5 {
 img {
   height: 80px;
 }
+.nav-link {
+  color: white;
+  transition: linear;
+  transition-duration: 0.2s;
+  transition-property: all;
+  margin-inline: 5px;
+  border-radius: 25px;
+  padding-inline: 5px;
+  transform: scale(1);
+  z-index: 0;
+}
+.nav-link:hover {
+  background-color: gray;
+  padding-left: 20px;
+  color: #c2d560;
+}
 
+.dropdown-menu li:hover {
+  transform: translateX(20px);
+
+  z-index: 3;
+}
+.dropdown-menu {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+}
+
+.dropdown-menu a {
+  color: white;
+}
+.footer{
+  background-color: #CF4A6B;
+  color: #FBEFF2;
+}
 
 p {
   color: white;
   font-size: 1.2rem;
 }
+label{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
 
-@media (max-width:900px){
-  footer{
-    position: fixed;
-    bottom: 0;
-    wid
-  }
 }
+table{
+  border: 2px solid rgb(62, 161, 201);
+}
+

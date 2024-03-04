@@ -39,7 +39,7 @@
     <title>Branches</title>
   </head>
 
-  <body style="overflow-x: hidden">
+  <body style="overflow-x: hidden; background-color: #fbeff2">
     <!-- header -->
     <div class="header">
       <img
@@ -50,10 +50,13 @@
       <h5>shri gajanan maharaj sansthan, shegaon</h5>
     </div>
 
-    <nav class="navbar navbar-expand-lg bg-danger navbar-dark sticky-top">
-      <div class="container-fluid">
+    <nav
+      class="navbar navbar-expand-lg sticky-top"
+      style="background-color: #cf486a; color: antiquewhite"
+    >
+      <div class="container-fluid navcollapse">
         <button
-          class="navbar-toggler"
+          class="navbar-toggler border-0 shadow-none"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavDropdown"
@@ -61,44 +64,33 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa-solid fa-ellipsis" style="color: wheat"></i>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../index.html"
-                >home</a
-              >
+              <a class="nav-link" href="../index.html">home</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="./branch.html"
-                >authorized branches</a
-              >
+              <a class="nav-link" href="./branch.html">authorized branches</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./place.html"
-                >places to visit</a
-              >
+              <a class="nav-link" href="./place.html">places to visit </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./sansthan.html"
-                >about sansthan</a
-              >
+              <a class="nav-link" href="./sansthan.html">about sansthan </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
     <div id="carouselExampleFade" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
             src="./images/branches carimg/branches1.jpg"
-            class="d-block w-100 h-50"
+            class="d-block w-100 h-50 active"
             alt="..."
           />
         </div>
@@ -168,7 +160,9 @@
         </div>
         <div class="col-md-7">
           <div class="card-body">
-            <h5 class="card-title">Shri Kshetra Pandharpur</h5>
+            <h5 class="card-title" style="font-size: 25px; color: #100406">
+              Shri Kshetra Pandharpur
+            </h5>
             <p class="card-text">
               In the first branch of Shri Sansthan at Shri Khetra Pandharpur,
               the beautiful temple of Shri Gajanan Maharaj is built in marble
@@ -407,7 +401,7 @@
     </div>
     <!-- footer -->
 
-    <div class="container-fluid bg-danger text-light">
+    <div class="container-fluid footer">
       <div class="row">
         <div class="col">
           <h1>Quick Links</h1>
