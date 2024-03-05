@@ -104,12 +104,12 @@
       <form class="row g-3">
         <div class="col-md-12">
           <label for="inputEmail4" class="form-label">full name</label>
-          <input type="email" class="form-control" id="inputEmail4" />
+          <input type="email" required class="form-control" id="inputEmail4" />
         </div>
 
         <div class="col-md-6">
           <label for="inputCity" class="form-label">Phone</label>
-          <input
+          <input required
             type="text"
             class="form-control"
             id="inputCity"
@@ -118,123 +118,97 @@
         </div>
         <div class="col-md-6">
           <label for="inputCity" class="form-label">e-mail</label>
-          <input
+          <input required
             type="text"
             class="form-control"
             id="inputCity"
             placeholder="xyz@gmail.com"
           />
         </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Address</label>
-          <input
-            type="text"
-            class="form-control"
-            id="inputAddress"
-            placeholder="plot /land mark /city"
-          />
-        </div>
-
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">City</label>
-          <input type="text" class="form-control" id="inputCity" />
-        </div>
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">State</label>
-          <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>maharastra</option>
-            <option>madhya pradesh</option>
-            <option>gujrat</option>
-          </select>
-        </div>
-        <div class="col-md-2">
-          <label for="inputZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="inputZip" />
-        </div>
+      </div>
+      <div class="container">
+        <h3 style="text-align: center; margin-top: 10px">
+          tell us about your Experience
+        </h3>
+  
+        <ul style="list-style: none">
+          <li
+            style="
+              display: inline;
+              margin-left: 20px;
+              font-size: 22px;
+              padding: 5px;
+            "
+          >
+            <input required
+              type="radio"
+              id="experience-excellent"
+              name="experience"
+              value="excellent"
+            /><label for="experience-excellent mx-2">Excellent</label>
+          </li>
+          <li
+            style="
+              display: inline;
+              margin-left: 20px;
+              font-size: 22px;
+              padding: 5px;
+            "
+          >
+            <input
+              type="radio"
+              id="experience-good"
+              name="experience"
+              value="good"
+            /><label for="experience-good mx-2">Good</label>
+          </li>
+          <li
+            style="
+              display: inline;
+              margin-left: 20px;
+              font-size: 22px;
+              padding: 5px;
+            "
+          >
+            <input
+              type="radio"
+              id="experience-fair"
+              name="experience"
+              value="fair"
+            /><label for="experience-fair mx-2">Fair</label>
+          </li>
+          <li
+            style="
+              display: inline;
+              margin-left: 20px;
+              font-size: 22px;
+              padding: 5px;
+            "
+          >
+            <input
+              type="radio"
+              id="experience-poor"
+              name="experience"
+              value="poor"
+            /><label for="experience-poor mx-2">Poor</label>
+          </li>
+        </ul>
+      </div>
+      <div class="form-floating container">
+        <textarea required
+          class="form-control"
+          placeholder="Leave a comment here"
+          id="floatingTextarea"
+        ></textarea>
+        <label for="floatingTextarea" class="mx-5">any feedback</label>
+        <center>
+          <button type="submit" class="btn btn-success my-4" id="alertButton">
+            submit
+          </button>
+        </center>
+      </div>
       </form>
-    </div>
-    <div class="container">
-      <h3 style="text-align: center; margin-top: 10px">
-        tell us about your Experience
-      </h3>
-
-      <ul style="list-style: none">
-        <li
-          style="
-            display: inline;
-            margin-left: 20px;
-            font-size: 22px;
-            padding: 5px;
-          "
-        >
-          <input
-            type="radio"
-            id="experience-excellent"
-            name="experience"
-            value="excellent"
-          /><label for="experience-excellent">Excellent</label>
-        </li>
-        <li
-          style="
-            display: inline;
-            margin-left: 20px;
-            font-size: 22px;
-            padding: 5px;
-          "
-        >
-          <input
-            type="radio"
-            id="experience-good"
-            name="experience"
-            value="good"
-          /><label for="experience-good">Good</label>
-        </li>
-        <li
-          style="
-            display: inline;
-            margin-left: 20px;
-            font-size: 22px;
-            padding: 5px;
-          "
-        >
-          <input
-            type="radio"
-            id="experience-fair"
-            name="experience"
-            value="fair"
-          /><label for="experience-fair">Fair</label>
-        </li>
-        <li
-          style="
-            display: inline;
-            margin-left: 20px;
-            font-size: 22px;
-            padding: 5px;
-          "
-        >
-          <input
-            type="radio"
-            id="experience-poor"
-            name="experience"
-            value="poor"
-          /><label for="experience-poor">Poor</label>
-        </li>
-      </ul>
-    </div>
-    <div class="form-floating container">
-      <textarea
-        class="form-control"
-        placeholder="Leave a comment here"
-        id="floatingTextarea"
-      ></textarea>
-      <label for="floatingTextarea" class="mx-5">any feedback</label>
-      <center>
-        <button type="button" class="btn btn-success my-4" id="alertButton">
-          submit
-        </button>
-      </center>
-    </div>
+   
     
    <div class="container-fluid footer navbar mb-0">
     <div class="row" style="border-top: 1px solid white">
