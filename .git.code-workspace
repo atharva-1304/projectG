@@ -1,23 +1,31 @@
 {
     "folders": [
         {
-            "path": "../navbar"
+            "path": "../gajanan maharaj"
         },
         {
-            "path": "../try"
+            "path": "../loader"
+        },
+        {
+            "path": "../login_page"
+        },
+        {
+            "path": "../navbar"
         },
         {
             "path": "."
         },
         {
-            "path": "../../java"
+            "path": "../Responsive Card Slider"
         },
         {
-            "path": "../Responsive Card Slider"
+            "path": "../try"
+        },
+        {
+            "path": "../../java/number_Game"
+        },
+        {
+            "path": "../../java practice"
         }
-    ],
-    "settings": {
-        "liveServer.settings.multiRootWorkspaceName": "projectG",
-        "docwriter.style": "Auto-detect"
-    }
+    ]
 }
