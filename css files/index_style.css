@@ -120,7 +120,7 @@ ul {
 #footerlist {
   font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
-  text-decoration: underline 1px white;
+
 }
 
 #placesto {
@@ -146,14 +146,7 @@ ul {
   filter: none;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 2rem;
-}
+
 /* .centered:hover{
     display: none;
   } */
@@ -167,20 +160,13 @@ ul {
   margin-inline: 5px;
   margin-block: 3px;
   filter: grayscale(30%);
-  transition-property: all;
-  transition-duration: 0.2s;
-  transition-timing-function: linear;
+ 
   padding: 10px;
   border: 2px solid yellowgreen;
   border-radius: 10px;
 }
 
-#photogall:hover {
-  filter: none;
-  transform: scale(1.2);
-  animation: ease-in;
-  z-index: 3;
-}
+
 
 /* slider card css */
 /* Google Fonts - Poppins */

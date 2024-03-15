@@ -1,27 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Poppins:wght@500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Roboto:ital@1&family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Libre+Bodoni&family=Roboto:ital@1&family=Satisfy&display=swap')
-* {
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Roboto:ital@1&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Libre+Bodoni&family=Roboto:ital@1&family=Satisfy&display=swap") * {
   padding: 0;
   margin: 0;
   font-family: libre-bodon;
-  text-transform: capitalize;
 }
+
 .header {
   align-items: center;
   text-align: center;
- 
+
   font-weight: 700;
- test  
+
   margin-bottom: 5px;
 }
 h1 {
-   font-family: libre;
-   font-weight: 500;
-   text-decoration:1px solid underline;
+  font-family: libre;
+  font-weight: 500;
+  text-decoration: 1px solid underline;
 }
-h3{
+h3 {
   font-family: "Satisfy", cursive;
   font-weight: 400;
   font-style: normal;
@@ -29,19 +28,27 @@ h3{
 img {
   height: 80px;
 }
-footer{
+footer {
   position: relative;
   bottom: 0;
   left: 0;
 }
-.infobox{
- background-color:rgb(252, 250, 246);
+.infobox {
+  background-color: rgb(252, 250, 246);
   border-radius: 10px;
-  color:rgba(207, 74, 107, )
+  color: rgba(207, 74, 107);
 }
 .card-img-top {
   border-radius: 25px;
 }
-a{
+a {
   font-size: 18px;
+}
+#footerlist {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
 }

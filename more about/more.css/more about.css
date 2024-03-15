@@ -1,59 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Poppins:wght@500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Roboto:ital@1&family=Satisfy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Roboto:ital@1&family=Satisfy&display=swap");
 * {
   padding: 0;
   margin: 0;
   font-family: libre-bodon;
   text-transform: capitalize;
   box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .header {
-    align-items: center;
-    text-align: center;
-    color: #f77c2d;
-    font-weight: 700;
-    text-decoration: none;
-   
-  }
-  h5 {
-    font-size: 50px;
-    margin-top: 5px;
-  }
-  .nav-link {
-    color: white;
-    transition: linear;
-    transition-duration: 0.2s;
-    transition-property: all;
-    margin-inline: 5px;
-    border-radius: 25px;
-    padding-inline: 5px;
-    transform: scale(1);
-    z-index: 0;
-  }
-  .nav-link:hover {
-    background-color: gray;
-    padding-left: 20px;
-    color: #c2d560;
-  }
-  
-  .dropdown-menu li:hover {
-    transform: translateX(20px);
-  
-    z-index: 3;
-  }
-  .dropdown-menu {
-    background-color: transparent;
-    backdrop-filter: blur(20px);
-  }
-  
-  .dropdown-menu a {
-    color: white;
-  }
-  .footer{
-    background-color: #CF4A6B;
-    color: #FBEFF2;
-  }
-  
+  align-items: center;
+  text-align: center;
+  color: #f77c2d;
+  font-weight: 700;
+  text-decoration: none;
+}
+h5 {
+  font-size: 50px;
+  margin-top: 5px;
+}
+.nav-link {
+  color: white;
+  transition: linear;
+  transition-duration: 0.2s;
+  transition-property: all;
+  margin-inline: 5px;
+  border-radius: 25px;
+  padding-inline: 5px;
+  transform: scale(1);
+  z-index: 0;
+}
+.nav-link:hover {
+  background-color: gray;
+  padding-left: 20px;
+  color: #c2d560;
+}
+
+.dropdown-menu li:hover {
+  transform: translateX(20px);
+
+  z-index: 3;
+}
+.dropdown-menu {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+}
+
+.dropdown-menu a {
+  color: white;
+}
+#footerlist {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}

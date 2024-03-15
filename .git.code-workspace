@@ -27,5 +27,8 @@
         {
             "path": "../../java practice"
         }
-    ]
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "projectG"
+    }
 }
